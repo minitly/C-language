@@ -1,0 +1,17 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include<stdio.h>
+
+int main()
+{
+	int hours = 0;
+	int hourly = 0;
+	int c = 0;
+	printf("Give the hours > ");
+	scanf("%d", &hours);
+	printf("Give the hourly wage > ");
+	scanf("%d", &hourly);
+	c = hours * hourly;
+	printf("Your salary is %d yuan.", c);
+	return 0;
+}
